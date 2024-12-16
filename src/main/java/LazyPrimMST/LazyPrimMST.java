@@ -62,7 +62,7 @@ public class LazyPrimMST {
         return totalWeight;
     }
     public static void main(String[] args) {
-        String filePath = "src/main/resources/tinyG.txt"; // Path to your .txt file with graph data
+        String filePath = "src/main/resources/mediumG.txt"; // Path to your .txt file with graph data
         Instant startTimeReadGraph = Instant.now();
         MyGraph graph = null;
         try {
